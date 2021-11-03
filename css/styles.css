@@ -6,24 +6,106 @@ body {
 .list {
   list-style: none;
 }
-/* Style header */
 
-.site-navigation .link {
-  color: #212121;
+:root {
+  --brand-color: #757575;
+}
+/* Header */
+
+.header-list {
+  font-family: Roboto;
+  font-weight: 500;
 }
 
-.link:hover,
-.link:focus {
+.header-link:hover,
+.header-link:focus {
   color: #2196f3;
 }
 
-.contacts-navigation .contacts-navigation-link {
-  color: #757575;
+.header-contacts {
+  font-family: Roboto;
+  font-weight: 500;
 }
 
-.contacts-navigation-link:hover,
-.contacts-navigation-link:focus {
+.header-mail,
+.header-tel {
+  color: var(--brand-color);
+}
+
+.header-mail:hover,
+.header-mail:focus {
   color: #2196f3;
+}
+
+.header-tel:hover,
+.header-tel:focus {
+  color: #2196f3;
+}
+
+/* Hero */
+
+.hero-title {
+  font-family: Roboto;
+  font-weight: 900;
+}
+
+.hero-button {
+  background: #2196f3;
+  color: #ffffff;
+  font-family: Roboto;
+  font-weight: 700;
+}
+
+/* Skills */
+
+.skills-name {
+  font-family: Roboto;
+  font-weight: 700;
+}
+
+.skills-text {
+  color: var(--brand-color);
+  font-family: Roboto;
+  font-weight: 400;
+}
+
+/* Our works */
+
+.works-title {
+  font-family: Roboto;
+  font-weight: 700;
+}
+
+/* Our team */
+
+.team-title {
+  font-family: Roboto;
+  font-weight: 700;
+}
+
+.team-name {
+  font-family: Roboto;
+  font-weight: 500;
+}
+
+.team-position {
+  color: var(--brand-color);
+  font-family: Roboto;
+  font-weight: 400;
+}
+
+/* Footer */
+
+.footer-map {
+  color: #ffffff;
+}
+
+.footer-mail {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-tel {
+  color: rgba(255, 255, 255, 0.6);
 }
 /* Цвет основного текста #212121 */
 /* Вторичный цвет #757575 */
