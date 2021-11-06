@@ -10,6 +10,7 @@
 
 body {
   font-family: 'Roboto', sans-serif;
+  font-weight: 400;
 }
 
 .list {
@@ -31,7 +32,7 @@ body {
 }
 
 .logo-studio {
-  color: var(--main-title-color);
+  color: #212121;
 }
 
 .header-link {
@@ -39,9 +40,9 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-
   color: var(--main-title-color);
 }
+
 .header-link:hover,
 .header-link:focus {
   color: var(--accent-color);
@@ -77,21 +78,19 @@ body {
 }
 
 .hero-button {
+  cursor: pointer;
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-  display: flex;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
-
+  background-color: var(--accent-color);
   color: var(--second-title-color);
 }
 
 .hero-button:hover,
 .hero-button:focus {
-  background-color: var(--accent-color);
+  background-color: #188ce8;
 }
 
 /*----------------- About ------------------- */
@@ -107,7 +106,6 @@ body {
 }
 
 .about-text {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -145,7 +143,6 @@ body {
 }
 
 .team-position {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -172,7 +169,6 @@ body {
 }
 
 .footer-map {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -180,7 +176,6 @@ body {
 }
 
 .footer-mail {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -188,7 +183,6 @@ body {
 }
 
 .footer-tel {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -199,6 +193,7 @@ body {
 /* ------------------- Navigation ----------------- */
 
 .navigation-button {
+  cursor: pointer;
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
@@ -225,12 +220,8 @@ body {
 }
 
 .offers-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--main-text-color);
 }
-/* Цвет основного текста #212121 */
-/* Вторичный цвет #757575 */
-/* Третий цвет #2196F3 */ ;
